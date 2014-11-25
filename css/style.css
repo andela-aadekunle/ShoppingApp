@@ -1,0 +1,73 @@
+/*the body of the app*/
+body {
+	background: url(../img/wood.jpg);
+	font-family: sans-serif;
+}
+
+h1 {
+	margin: 40px 0 0 80px;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+h2 {
+	font-size: 18px;
+	margin: 10px 0 0 60px;
+	color: white;
+}
+
+.search {
+	margin: auto;
+	margin-top: 20px;
+	max-width: 300px;
+}
+
+#item{
+	padding: 5px 20px;
+	font-size: 16px;
+  	border-radius: 5px;
+}
+
+#button {
+  	width: 50px;
+  	background: #5bff55;
+  	border-radius: 2px;
+  	color: #000;
+  	font-size:18px;
+  	line-height: 10px;
+  	padding: 5px 0;
+  	text-shadow: 0 1px #68B25B;
+}
+
+.main {
+	margin: auto;
+	width: 70%;
+	height: 70%;
+	padding: 10px 10px;
+	background-color: white;
+	margin-top: 10px;	
+	border-radius: 5px;
+	clear: both;
+}
+.main div {
+	display: inline-block;
+	min-width: 50px;
+	vertical-align: top;
+	background-color: white;
+}
+
+.complete, .uncomplete {
+	width: 49%;
+	/*background-color: #999;*/
+}
+
+h3 {
+  padding-left: 42px;
+	text-align: center;
+}
+
+ul {
+  padding-left: 200px;
+	list-style: none;
+}
