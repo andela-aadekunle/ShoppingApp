@@ -58,6 +58,6 @@ var shoppingApp = {
 		$(".main ul").on("click", "a", shoppingApp.deleteItem);
 	},
 	
-}
+};
 
 $(document).ready(shoppingApp.initialise);
